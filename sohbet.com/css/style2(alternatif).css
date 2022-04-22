@@ -1,0 +1,259 @@
+body {
+  color: #000;
+  font-family: "Quicksand", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* INDEX-START */
+    /* index-navbar-area-start */
+    .navbar-cont-img {
+    background-image: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    height: 900px;
+    width: 100%;
+    top: 0;
+    z-index: -1;
+    }
+    .navbar a {
+    color: #fff !important;
+    }
+    .navbar-item a {
+    font-size: 18px !important;
+    }
+    .ml-auto {
+    margin-left: auto !important;
+    }
+    /* index-navbar-area-end */
+    /* index-login-area-start */
+    .login-box{
+        width:70%;
+        border-radius: 10px;
+    }
+    .login-box img{
+        width:100%;
+    }
+    .login-text{
+        text-align: center;
+    }
+    .login-text p{
+        font-size: 30px;
+        color:#47557d;
+        letter-spacing:-1px;
+        font-weight: 600;
+    }
+    .login-text span{
+        font-size: 12px;
+        color: #c097;
+    }
+    .login-text input{
+        width: 100%;
+        margin: 5px 0px 5px 0px;
+        border-radius: 90px;
+        padding:18px;
+        border: 1px solid #d9dff2;
+    }
+    .login-text button{
+        font-weight: 700;
+        cursor: pointer;
+        margin: 5px 0px 5px 0px;
+        padding:17px;
+        border: 0px;
+        border-radius: 90px;
+        color: white;
+        width:100%;
+        border: 1px solid #767676;
+        background-color: #764ba2;
+        /* background-size: 300% 100%; */
+        transition: all .5s;
+        -webkit-transition: all .5s;
+    }
+    .login-text button:hover{
+        border: 1px solid #000;
+        background-color: #fff;
+        color: #000;
+    }
+    .login-text button:active{
+        -webkit-transition: all .1s;
+        transition: all .1s;
+        color:black; 
+    }
+    .algin-items-center{
+        align-items: center !important;
+    }
+    .login-card-area{
+        color: #fff;
+    }
+    .login-title{
+        font-size: 35px;
+        font-weight: 700;
+    }
+    .login-card-text{
+        font-size: 20px;
+        font-weight: 200;
+    }
+    .login-card-area .btn-primary{
+        padding: 25px 65px;
+        background: transparent;
+        border-radius: 90px;
+        border: 1px solid #fff;
+    }
+    .login-card-area .btn-primary:hover{
+        border: 1px solid #6063db;
+        background-color: #6063db;
+    }
+    .marginBottom{
+        margin-bottom: 160px;
+    }
+    .text-center{
+        text-align: center;
+    }
+    .down-arrow i{
+        margin-right: 20px;
+    }
+    /* index-login-area-end */
+    /* index-section-area-start */
+    .section-user-number-info h6{
+        font-size: 100px;
+        letter-spacing: -10px;
+        font-weight: 200;
+    }
+    .section-user-color-pik{
+        color: #764ba2;
+        font-weight: 100;
+    }
+    .section-user-text-info h4{
+        font-size: 60px;
+        color: #764ba2;
+        font-weight:400;
+    }
+    .gold{
+        color: rgb(225, 192, 2);
+    }
+    .suggestion-box-text h6{
+        font-size: 28px;
+        letter-spacing: -1px;
+        font-weight: 400;
+    }
+    .suggestion-box-text p{
+        font-size: 16px;
+        letter-spacing:1px;
+    }
+    .user-color{
+        font-weight: 700;
+        color: #20214e;
+    }
+    .accordion-title{
+        margin-bottom: 40px;
+    }
+    .accordion-title h2{
+        font-size: 55px;
+    }
+    .bg-rules{
+        background-color: #6063db;
+        margin-top: 140px;
+        margin-bottom: 140px;
+    }
+    .bg-rules-footer{
+        background-color: #6063db;
+    }
+    .marginTop{
+        margin-top: 120px;
+    }
+    .accordion-button{
+        color: #fff !important;
+        font-weight: 700 !important;
+        font-size: 25px !important;
+        border: 1px solid #000 !important;
+        background-color: #6063db !important;
+    }
+    .accordion-button::after{
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+    }
+    .accordion-button:not(.collapsed)::after{
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+    }
+    .text-title-blog{
+        color: #6063db;
+    }
+    .btn-blog{
+        background-color: #6063db;
+        padding: 15px;
+        border-radius: 50px;
+        color: #fff;
+        border: 1px solid #6063db;
+        transition: .5s all;
+    }
+    .btn-blog:hover{
+        background-color: transparent;
+        color: #000;
+        border: 1px solid #000;
+        transition: .5s all;
+    }
+    .blog-box-text h6{
+        font-size: 26px;
+    }
+    /* index-section-area-end */
+    /* index-footer-area */
+    .footer-con a{
+        color: #fff;
+        text-decoration: none;
+        margin-bottom: 5px;
+    }
+    .noctis{
+        font-weight: 900;
+    }
+    .bg-footer-border{
+        background-color: #43449c !important;
+    }
+    .bg-footer-hastags{
+        background-color: #585acb !important;
+    }
+    .bg-footer-hastags a{
+        color: #fff;
+        text-decoration: none;
+    }
+    /* index-footer-area-ned */
+/* INDEX-END */
+
+
+/* Media-start */
+
+@media screen and (min-width: 995px) and (max-width:1180px){
+    .down-arrow{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 200px) and (max-width: 995px) {
+    .login-card-area{
+        display: none;
+    }
+    .down-arrow{
+        display: none;
+    }
+    .section-user-number-info h6{
+        font-size: 50px;
+        font-weight: 400;
+        letter-spacing: -1px;
+    }
+    .section-user-text-info h4{
+        font-size: 40px;
+    }
+    .suggestion-box-image{
+        margin-bottom: 15px;
+    }
+    .blog-box{
+        margin-bottom: 40px;
+    }
+    .marginTop{
+        margin-top: 40px;
+    }
+    .footer-hastag-box h2{
+        font-size: 20px;
+    }
+}
+
+/* media-End */
